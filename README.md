@@ -1,2 +1,52 @@
 # digi-tech-blog-website
-“Digi Tech Blog is a Laravel-based technology blogging platform with a full admin panel. It features post management, categories, tags, SEO fields, and a responsive frontend for reading tech articles. Built with clean code, Blade templates, and a modern UI.”
+Digit Tech Blog is a modern and responsive blog application built with Laravel.
+It includes clean code, powerful features, and a fully structured MVC architecture.
+
+🚀 Features
+
+Clean and simple blog UI
+
+Post management (Create, Read, Update, Delete)
+
+Category & tags support
+
+User authentication (Login/Register)
+
+Responsive layout
+
+Secure and optimized Laravel structure
+
+🛠️ Technologies Used
+
+Laravel
+
+PHP
+
+MySQL
+
+Blade Templates
+
+HTML, CSS, JavaScript
+
+📂 Project Structure
+
+app/ – Application logic
+
+routes/ – Web & API routes
+
+resources/views/ – Blade templates
+
+public/ – Frontend assets
+
+database/ – Migrations & seeders
+
+▶️ How to Run the Project
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+
+📄 License
+
+This project is open-source and free to use.
